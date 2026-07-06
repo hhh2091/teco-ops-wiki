@@ -37,11 +37,3 @@ python3 scripts/get_page.py technique-pict-smoke-cuda-sdaa-model-migration
 python3 scripts/get_page.py hw-teco-ops-hardware-model
 python3 scripts/validate.py
 ```
-
-## 范围边界与安全说明
-
-本知识库按用户明确要求（"不使用其他内容，防止重要信息泄漏"）构建，内容来源严格限定为上述公开仓库的文档目录（Teco-Ops/PICT_smoke 为 `doc/`或根 README，Teco-AL 为 `doc/`+ 根 `README.md`）与已获授权收录的官方手册。每个仓库在收录前均已通过官方 API 核实为公开仓库（GitHub `private: false` / Gitee `private: false`），Teco-AL 与 SDAAKernelWiki 中排除在外的内部 `tecoal` gerrit 仓库是两个独立项目，不构成内部材料泄漏。若需要更完整的 SDAA / 太初 T1 优化知识（含内部代码仓索引、全部官方手册、性能诊断模式库），请使用 `external/SDAAKernelWiki`；两者相互独立，不共享 `wiki/` curated 页面。
-
-## License
-
-仓库基础设施（scripts、schema、queries、references）与源自 `Tecorigin/teco-ops`、`tecorigin/teco-al`（Gitee）`doc/` 目录的页面遵循 `LICENSE`（BSD-3-Clause，与两仓库一致）。4 份太初官方手册与 TecoLIBRT 用户手册的结构化页面版权归 Tecorigin Co., Ltd. 所有，不属于 BSD-3-Clause 授权范围，仅作参考与开发者教育用途收录。PICT_smoke 项目文档集情况更特殊：该仓库本身未附带 LICENSE 文件，且英文 README 实质是原始 SIGGRAPH 2024 学术项目（Wang/Tang/Chu）的 README，版权归原作者所有，非 Tecorigin 授权范围，同样仅作参考与引用用途收录。详见 `NOTICE.md`。
